@@ -1,0 +1,143 @@
+/* ---------- Base ---------- */
+* {
+    font-family: "Inter", "Segoe UI", "Arial";
+    font-size: 12px;
+    color: #0f172a;
+}
+QMainWindow {
+    background: #f4f7fb;
+}
+QWidget#AppRoot {
+    background: #f4f7fb;
+}
+/* ---------- Panels ---------- */
+QFrame#Sidebar {
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    border-radius: 14px;
+}
+QFrame#TopBar {
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    border-radius: 14px;
+}
+QFrame#Card {
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    border-radius: 14px;
+}
+QLabel#H1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+QLabel#H2 {
+    font-size: 15px;
+    font-weight: 600;
+}
+QLabel#Muted {
+    color: #64748b;
+}
+/* ---------- Buttons ---------- */
+QPushButton {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 14px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background: #1d4ed8;
+}
+QPushButton:pressed {
+    background: #1e40af;
+}
+QPushButton#Secondary {
+    background: #ffffff;
+    color: #0f172a;
+    border: 1px solid #d7e3f4;
+}
+QPushButton#Secondary:hover {
+    background: #f1f6ff;
+}
+QPushButton#Ghost {
+    background: transparent;
+    color: #2563eb;
+    border: none;
+    padding: 6px 8px;
+}
+QPushButton#Ghost:hover {
+    text-decoration: underline;
+}
+/* ---------- Inputs ---------- */
+QLineEdit, QComboBox, QDateEdit {
+    background: #ffffff;
+    border: 1px solid #d7e3f4;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+QLineEdit:focus, QComboBox:focus, QDateEdit:focus {
+    border: 1px solid #2563eb;
+}
+QCheckBox {
+    spacing: 8px;
+}
+/* ---------- Table ---------- */
+QTableWidget {
+    background: #ffffff;
+    border: 1px solid #e6eef8;
+    border-radius: 14px;
+    gridline-color: #eef4ff;
+    selection-background-color: #e8f0ff;
+    selection-color: #0f172a;
+}
+QHeaderView::section {
+    background: #f6f9ff;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+}
+/* ---------- Nav buttons ---------- */
+QPushButton#NavBtn {
+    background: transparent;
+    color: #0f172a;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+}
+QPushButton#NavBtn:hover {
+    background: #f1f6ff;
+    border: 1px solid #d7e3f4;
+}
+QPushButton#NavBtn[active="true"] {
+    background: #e8f0ff;
+    border: 1px solid #c7dbff;
+    color: #1d4ed8;
+}
+/* ---------- Status chips ---------- */
+QLabel#ChipGood {
+    background: #eafaf1;
+    border: 1px solid #b9eccf;
+    color: #166534;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+QLabel#ChipWarn {
+    background: #fff7ed;
+    border: 1px solid #fed7aa;
+    color: #9a3412;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
+QLabel#ChipInfo {
+    background: #eff6ff;
+    border: 1px solid #bfdbfe;
+    color: #1d4ed8;
+    border-radius: 999px;
+    padding: 4px 10px;
+    font-weight: 600;
+}
